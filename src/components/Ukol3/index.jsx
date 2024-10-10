@@ -21,13 +21,7 @@ export const Ukol3 = () => {
           onChange={(e) => setLogin(e.target.value)}
         />
       </label>
-      <button
-        onClick={() => {
-          login('');
-        }}
-      >
-        Vymazat
-      </button>
+      <button onClick={() => setLogin('')}>Vymazat</button>
     </>
   );
 };
